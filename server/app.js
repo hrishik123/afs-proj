@@ -70,7 +70,7 @@ app.use("/api", brainTreeRouter);
 app.use("/api/order", orderRouter);
 app.use("/api/customize", customizeRouter);
 app.get("/",(req,res)=>{
-  res.send("hello");
+  res.send("hi");
 }
 );
 
